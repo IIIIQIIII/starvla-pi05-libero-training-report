@@ -1,0 +1,605 @@
+{
+  "cabinet_roi_changed_peak_time_s": 20.0,
+  "cabinet_roi_changed_px_peak": 2048,
+  "dark_area_drawer_pull_roi_delta_max_px": 2642,
+  "dark_area_drawer_pull_roi_delta_max_ratio_vs_initial": 1.0589178356713427,
+  "dark_area_drawer_pull_roi_initial_px": 2495,
+  "dark_area_drawer_pull_roi_max_px": 5137,
+  "dark_area_peak_time_s": 21.0,
+  "features": [
+    {
+      "cabinet_roi_changed_px_vs_start": 0,
+      "cabinet_roi_mean_absdiff_vs_start": 0.0,
+      "dark_area_drawer_pull_roi_px": 2495,
+      "dark_bbox_drawer_pull_roi": [
+        135,
+        105,
+        199,
+        208
+      ],
+      "frame_index": 0,
+      "gripper_centroid_dist_to_middle_handle_proxy_px": 67.76792968825653,
+      "gripper_white_centroid_px": [
+        130.97154323239693,
+        189.64514167578744
+      ],
+      "time_s": 0.0
+    },
+    {
+      "cabinet_roi_changed_px_vs_start": 121,
+      "cabinet_roi_mean_absdiff_vs_start": 0.8596626984126984,
+      "dark_area_drawer_pull_roi_px": 2630,
+      "dark_bbox_drawer_pull_roi": [
+        135,
+        105,
+        199,
+        208
+      ],
+      "frame_index": 1,
+      "gripper_centroid_dist_to_middle_handle_proxy_px": 68.64976318721077,
+      "gripper_white_centroid_px": [
+        131.27311799947904,
+        191.07970825735867
+      ],
+      "time_s": 1.0
+    },
+    {
+      "cabinet_roi_changed_px_vs_start": 181,
+      "cabinet_roi_mean_absdiff_vs_start": 1.2476984126984128,
+      "dark_area_drawer_pull_roi_px": 2630,
+      "dark_bbox_drawer_pull_roi": [
+        135,
+        105,
+        199,
+        208
+      ],
+      "frame_index": 2,
+      "gripper_centroid_dist_to_middle_handle_proxy_px": 68.97846189809668,
+      "gripper_white_centroid_px": [
+        131.30121584520853,
+        191.5361485161459
+      ],
+      "time_s": 2.0
+    },
+    {
+      "cabinet_roi_changed_px_vs_start": 288,
+      "cabinet_roi_mean_absdiff_vs_start": 1.597857142857143,
+      "dark_area_drawer_pull_roi_px": 2629,
+      "dark_bbox_drawer_pull_roi": [
+        135,
+        105,
+        199,
+        208
+      ],
+      "frame_index": 3,
+      "gripper_centroid_dist_to_middle_handle_proxy_px": 68.9231644859667,
+      "gripper_white_centroid_px": [
+        131.33960784313726,
+        191.4962091503268
+      ],
+      "time_s": 3.0
+    },
+    {
+      "cabinet_roi_changed_px_vs_start": 136,
+      "cabinet_roi_mean_absdiff_vs_start": 1.117043650793651,
+      "dark_area_drawer_pull_roi_px": 2632,
+      "dark_bbox_drawer_pull_roi": [
+        135,
+        105,
+        199,
+        208
+      ],
+      "frame_index": 4,
+      "gripper_centroid_dist_to_middle_handle_proxy_px": 64.476251679825,
+      "gripper_white_centroid_px": [
+        131.3344456803856,
+        185.49919663824002
+      ],
+      "time_s": 4.0
+    },
+    {
+      "cabinet_roi_changed_px_vs_start": 121,
+      "cabinet_roi_mean_absdiff_vs_start": 0.9819642857142857,
+      "dark_area_drawer_pull_roi_px": 2604,
+      "dark_bbox_drawer_pull_roi": [
+        135,
+        105,
+        199,
+        208
+      ],
+      "frame_index": 5,
+      "gripper_centroid_dist_to_middle_handle_proxy_px": 63.7129158471666,
+      "gripper_white_centroid_px": [
+        129.67018125814477,
+        182.73652410851795
+      ],
+      "time_s": 5.0
+    },
+    {
+      "cabinet_roi_changed_px_vs_start": 121,
+      "cabinet_roi_mean_absdiff_vs_start": 0.982420634920635,
+      "dark_area_drawer_pull_roi_px": 2632,
+      "dark_bbox_drawer_pull_roi": [
+        135,
+        105,
+        199,
+        208
+      ],
+      "frame_index": 6,
+      "gripper_centroid_dist_to_middle_handle_proxy_px": 66.24192264350764,
+      "gripper_white_centroid_px": [
+        129.91170683718641,
+        186.5800541072307
+      ],
+      "time_s": 6.0
+    },
+    {
+      "cabinet_roi_changed_px_vs_start": 122,
+      "cabinet_roi_mean_absdiff_vs_start": 0.9917658730158728,
+      "dark_area_drawer_pull_roi_px": 2575,
+      "dark_bbox_drawer_pull_roi": [
+        140,
+        105,
+        199,
+        208
+      ],
+      "frame_index": 7,
+      "gripper_centroid_dist_to_middle_handle_proxy_px": 63.64433776598068,
+      "gripper_white_centroid_px": [
+        128.23559069554256,
+        181.06141858599747
+      ],
+      "time_s": 7.0
+    },
+    {
+      "cabinet_roi_changed_px_vs_start": 231,
+      "cabinet_roi_mean_absdiff_vs_start": 2.075892857142857,
+      "dark_area_drawer_pull_roi_px": 2461,
+      "dark_bbox_drawer_pull_roi": [
+        135,
+        105,
+        199,
+        208
+      ],
+      "frame_index": 8,
+      "gripper_centroid_dist_to_middle_handle_proxy_px": 60.878167425886375,
+      "gripper_white_centroid_px": [
+        128.7647187329328,
+        177.40546149645002
+      ],
+      "time_s": 8.0
+    },
+    {
+      "cabinet_roi_changed_px_vs_start": 387,
+      "cabinet_roi_mean_absdiff_vs_start": 3.187519841269841,
+      "dark_area_drawer_pull_roi_px": 2305,
+      "dark_bbox_drawer_pull_roi": [
+        135,
+        105,
+        199,
+        208
+      ],
+      "frame_index": 9,
+      "gripper_centroid_dist_to_middle_handle_proxy_px": 58.91687805635169,
+      "gripper_white_centroid_px": [
+        129.9683132401579,
+        175.77339165688682
+      ],
+      "time_s": 9.0
+    },
+    {
+      "cabinet_roi_changed_px_vs_start": 510,
+      "cabinet_roi_mean_absdiff_vs_start": 4.262242063492063,
+      "dark_area_drawer_pull_roi_px": 2247,
+      "dark_bbox_drawer_pull_roi": [
+        135,
+        105,
+        199,
+        208
+      ],
+      "frame_index": 10,
+      "gripper_centroid_dist_to_middle_handle_proxy_px": 58.14507732157236,
+      "gripper_white_centroid_px": [
+        130.6609261787252,
+        175.40354930169065
+      ],
+      "time_s": 10.0
+    },
+    {
+      "cabinet_roi_changed_px_vs_start": 526,
+      "cabinet_roi_mean_absdiff_vs_start": 4.291626984126983,
+      "dark_area_drawer_pull_roi_px": 2276,
+      "dark_bbox_drawer_pull_roi": [
+        135,
+        105,
+        199,
+        208
+      ],
+      "frame_index": 11,
+      "gripper_centroid_dist_to_middle_handle_proxy_px": 58.18565652646703,
+      "gripper_white_centroid_px": [
+        130.56578394283312,
+        175.3497267759563
+      ],
+      "time_s": 11.0
+    },
+    {
+      "cabinet_roi_changed_px_vs_start": 567,
+      "cabinet_roi_mean_absdiff_vs_start": 4.603710317460318,
+      "dark_area_drawer_pull_roi_px": 2272,
+      "dark_bbox_drawer_pull_roi": [
+        135,
+        105,
+        199,
+        208
+      ],
+      "frame_index": 12,
+      "gripper_centroid_dist_to_middle_handle_proxy_px": 58.1487394766174,
+      "gripper_white_centroid_px": [
+        130.722297934794,
+        175.48569032393334
+      ],
+      "time_s": 12.0
+    },
+    {
+      "cabinet_roi_changed_px_vs_start": 539,
+      "cabinet_roi_mean_absdiff_vs_start": 5.180436507936508,
+      "dark_area_drawer_pull_roi_px": 2281,
+      "dark_bbox_drawer_pull_roi": [
+        135,
+        105,
+        199,
+        208
+      ],
+      "frame_index": 13,
+      "gripper_centroid_dist_to_middle_handle_proxy_px": 57.710155124983686,
+      "gripper_white_centroid_px": [
+        130.86545643153528,
+        174.96296680497926
+      ],
+      "time_s": 13.0
+    },
+    {
+      "cabinet_roi_changed_px_vs_start": 538,
+      "cabinet_roi_mean_absdiff_vs_start": 5.264722222222223,
+      "dark_area_drawer_pull_roi_px": 2306,
+      "dark_bbox_drawer_pull_roi": [
+        135,
+        105,
+        199,
+        208
+      ],
+      "frame_index": 14,
+      "gripper_centroid_dist_to_middle_handle_proxy_px": 58.13563570862167,
+      "gripper_white_centroid_px": [
+        130.8529994783516,
+        175.6264997391758
+      ],
+      "time_s": 14.0
+    },
+    {
+      "cabinet_roi_changed_px_vs_start": 524,
+      "cabinet_roi_mean_absdiff_vs_start": 5.089186507936509,
+      "dark_area_drawer_pull_roi_px": 2389,
+      "dark_bbox_drawer_pull_roi": [
+        135,
+        105,
+        199,
+        208
+      ],
+      "frame_index": 15,
+      "gripper_centroid_dist_to_middle_handle_proxy_px": 58.608618825624305,
+      "gripper_white_centroid_px": [
+        130.53632816619213,
+        175.98681851734682
+      ],
+      "time_s": 15.0
+    },
+    {
+      "cabinet_roi_changed_px_vs_start": 598,
+      "cabinet_roi_mean_absdiff_vs_start": 5.4382738095238095,
+      "dark_area_drawer_pull_roi_px": 2400,
+      "dark_bbox_drawer_pull_roi": [
+        135,
+        105,
+        199,
+        208
+      ],
+      "frame_index": 16,
+      "gripper_centroid_dist_to_middle_handle_proxy_px": 60.48274538192903,
+      "gripper_white_centroid_px": [
+        129.6301475445937,
+        177.83296630698084
+      ],
+      "time_s": 16.0
+    },
+    {
+      "cabinet_roi_changed_px_vs_start": 1031,
+      "cabinet_roi_mean_absdiff_vs_start": 7.777896825396825,
+      "dark_area_drawer_pull_roi_px": 3125,
+      "dark_bbox_drawer_pull_roi": [
+        137,
+        105,
+        199,
+        208
+      ],
+      "frame_index": 17,
+      "gripper_centroid_dist_to_middle_handle_proxy_px": 61.72684757280008,
+      "gripper_white_centroid_px": [
+        128.96829158203565,
+        178.97777025502143
+      ],
+      "time_s": 17.0
+    },
+    {
+      "cabinet_roi_changed_px_vs_start": 1155,
+      "cabinet_roi_mean_absdiff_vs_start": 8.49688492063492,
+      "dark_area_drawer_pull_roi_px": 3277,
+      "dark_bbox_drawer_pull_roi": [
+        136,
+        105,
+        199,
+        208
+      ],
+      "frame_index": 18,
+      "gripper_centroid_dist_to_middle_handle_proxy_px": 61.83266980384446,
+      "gripper_white_centroid_px": [
+        129.18952785858133,
+        179.39874692324906
+      ],
+      "time_s": 18.0
+    },
+    {
+      "cabinet_roi_changed_px_vs_start": 1379,
+      "cabinet_roi_mean_absdiff_vs_start": 10.072738095238096,
+      "dark_area_drawer_pull_roi_px": 3488,
+      "dark_bbox_drawer_pull_roi": [
+        135,
+        105,
+        199,
+        208
+      ],
+      "frame_index": 19,
+      "gripper_centroid_dist_to_middle_handle_proxy_px": 62.69797369737583,
+      "gripper_white_centroid_px": [
+        129.29698692438885,
+        180.83138146674247
+      ],
+      "time_s": 19.0
+    },
+    {
+      "cabinet_roi_changed_px_vs_start": 2048,
+      "cabinet_roi_mean_absdiff_vs_start": 15.523670634920636,
+      "dark_area_drawer_pull_roi_px": 4794,
+      "dark_bbox_drawer_pull_roi": [
+        135,
+        105,
+        199,
+        208
+      ],
+      "frame_index": 20,
+      "gripper_centroid_dist_to_middle_handle_proxy_px": 66.68425189435847,
+      "gripper_white_centroid_px": [
+        128.73217435122197,
+        186.0376669186193
+      ],
+      "time_s": 20.0
+    },
+    {
+      "cabinet_roi_changed_px_vs_start": 2039,
+      "cabinet_roi_mean_absdiff_vs_start": 15.49672619047619,
+      "dark_area_drawer_pull_roi_px": 5137,
+      "dark_bbox_drawer_pull_roi": [
+        135,
+        105,
+        199,
+        208
+      ],
+      "frame_index": 21,
+      "gripper_centroid_dist_to_middle_handle_proxy_px": 67.83971167833889,
+      "gripper_white_centroid_px": [
+        127.12238119570772,
+        186.0447112927951
+      ],
+      "time_s": 21.0
+    },
+    {
+      "cabinet_roi_changed_px_vs_start": 2031,
+      "cabinet_roi_mean_absdiff_vs_start": 15.48329365079365,
+      "dark_area_drawer_pull_roi_px": 5125,
+      "dark_bbox_drawer_pull_roi": [
+        135,
+        105,
+        199,
+        208
+      ],
+      "frame_index": 22,
+      "gripper_centroid_dist_to_middle_handle_proxy_px": 67.94649751795532,
+      "gripper_white_centroid_px": [
+        127.21524949083502,
+        186.29455193482687
+      ],
+      "time_s": 22.0
+    },
+    {
+      "cabinet_roi_changed_px_vs_start": 2029,
+      "cabinet_roi_mean_absdiff_vs_start": 15.482797619047618,
+      "dark_area_drawer_pull_roi_px": 5124,
+      "dark_bbox_drawer_pull_roi": [
+        135,
+        105,
+        199,
+        208
+      ],
+      "frame_index": 23,
+      "gripper_centroid_dist_to_middle_handle_proxy_px": 67.80906040032859,
+      "gripper_white_centroid_px": [
+        127.47483838255799,
+        186.3643047281024
+      ],
+      "time_s": 23.0
+    },
+    {
+      "cabinet_roi_changed_px_vs_start": 2025,
+      "cabinet_roi_mean_absdiff_vs_start": 15.457658730158732,
+      "dark_area_drawer_pull_roi_px": 5076,
+      "dark_bbox_drawer_pull_roi": [
+        135,
+        105,
+        199,
+        208
+      ],
+      "frame_index": 24,
+      "gripper_centroid_dist_to_middle_handle_proxy_px": 67.72201090780719,
+      "gripper_white_centroid_px": [
+        127.32397191574725,
+        186.08412738214645
+      ],
+      "time_s": 24.0
+    },
+    {
+      "cabinet_roi_changed_px_vs_start": 2033,
+      "cabinet_roi_mean_absdiff_vs_start": 15.433650793650795,
+      "dark_area_drawer_pull_roi_px": 4975,
+      "dark_bbox_drawer_pull_roi": [
+        135,
+        105,
+        199,
+        208
+      ],
+      "frame_index": 25,
+      "gripper_centroid_dist_to_middle_handle_proxy_px": 67.08930919265565,
+      "gripper_white_centroid_px": [
+        127.54656923458013,
+        185.40302204607383
+      ],
+      "time_s": 25.0
+    },
+    {
+      "cabinet_roi_changed_px_vs_start": 2040,
+      "cabinet_roi_mean_absdiff_vs_start": 15.453055555555556,
+      "dark_area_drawer_pull_roi_px": 4901,
+      "dark_bbox_drawer_pull_roi": [
+        135,
+        105,
+        199,
+        208
+      ],
+      "frame_index": 26,
+      "gripper_centroid_dist_to_middle_handle_proxy_px": 66.29737378634786,
+      "gripper_white_centroid_px": [
+        127.35747974362076,
+        184.0471641069053
+      ],
+      "time_s": 26.0
+    },
+    {
+      "cabinet_roi_changed_px_vs_start": 2038,
+      "cabinet_roi_mean_absdiff_vs_start": 15.48017857142857,
+      "dark_area_drawer_pull_roi_px": 4841,
+      "dark_bbox_drawer_pull_roi": [
+        135,
+        105,
+        199,
+        208
+      ],
+      "frame_index": 27,
+      "gripper_centroid_dist_to_middle_handle_proxy_px": 65.9241926537268,
+      "gripper_white_centroid_px": [
+        127.13857006217121,
+        183.2556193208991
+      ],
+      "time_s": 27.0
+    },
+    {
+      "cabinet_roi_changed_px_vs_start": 1977,
+      "cabinet_roi_mean_absdiff_vs_start": 14.97626984126984,
+      "dark_area_drawer_pull_roi_px": 4583,
+      "dark_bbox_drawer_pull_roi": [
+        135,
+        105,
+        199,
+        208
+      ],
+      "frame_index": 28,
+      "gripper_centroid_dist_to_middle_handle_proxy_px": 64.8917596123856,
+      "gripper_white_centroid_px": [
+        127.26661985018727,
+        181.84854868913857
+      ],
+      "time_s": 28.0
+    },
+    {
+      "cabinet_roi_changed_px_vs_start": 1882,
+      "cabinet_roi_mean_absdiff_vs_start": 14.403214285714286,
+      "dark_area_drawer_pull_roi_px": 4445,
+      "dark_bbox_drawer_pull_roi": [
+        135,
+        105,
+        199,
+        208
+      ],
+      "frame_index": 29,
+      "gripper_centroid_dist_to_middle_handle_proxy_px": 64.1703207608194,
+      "gripper_white_centroid_px": [
+        127.05689933195117,
+        180.50184289334254
+      ],
+      "time_s": 29.0
+    },
+    {
+      "cabinet_roi_changed_px_vs_start": 1889,
+      "cabinet_roi_mean_absdiff_vs_start": 14.39202380952381,
+      "dark_area_drawer_pull_roi_px": 4442,
+      "dark_bbox_drawer_pull_roi": [
+        135,
+        105,
+        199,
+        208
+      ],
+      "frame_index": 30,
+      "gripper_centroid_dist_to_middle_handle_proxy_px": 64.2719926871228,
+      "gripper_white_centroid_px": [
+        126.95844843462247,
+        180.54293278084714
+      ],
+      "time_s": 30.0
+    }
+  ],
+  "gripper_min_dist_time_s": 13.0,
+  "gripper_min_dist_to_middle_handle_proxy_px": 57.710155124983686,
+  "interpretation": {
+    "approach": "gripper centroid moves close to the cabinet/middle-handle proxy if min distance is low",
+    "limitation": "pixel proxies cannot prove official task success; sim qpos must be logged during the same rollout for exact task-progress metrics",
+    "pull_or_drawer_motion": "increase in dark pixels / cabinet ROI difference indicates visible change around the drawer/cabinet area"
+  },
+  "note": "Visual-proxy metrics from the saved 90000 checkpoint fail video; not simulator qpos. Use only for qualitative behavior quantification.",
+  "num_sampled_frames": 31,
+  "rois_xyxy": {
+    "cabinet_roi": [
+      150,
+      70,
+      255,
+      230
+    ],
+    "drawer_pull_roi": [
+      135,
+      105,
+      200,
+      215
+    ],
+    "gripper_roi": [
+      80,
+      70,
+      220,
+      230
+    ],
+    "handle_band_roi": [
+      145,
+      90,
+      190,
+      185
+    ]
+  },
+  "source_video": "libero_goal_task00_ep00_fail_open_the_middle_drawer_of_the_cabinet.mp4"
+}

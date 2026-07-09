@@ -1,0 +1,15 @@
+{
+  "model": "PI05",
+  "per_task": {
+    "open the middle drawer of the cabinet": {
+      "success": 0,
+      "total": 1
+    }
+  },
+  "success_rate": 0.0,
+  "task_end": 1,
+  "task_start": 0,
+  "task_suite": "libero_goal",
+  "total_episodes": 1,
+  "total_successes": 0
+}

@@ -1,0 +1,51 @@
+{
+  "model": "PI05",
+  "per_task": {
+    "open the middle drawer of the cabinet": {
+      "success": 2,
+      "total": 5
+    },
+    "open the top drawer and put the bowl inside": {
+      "success": 0,
+      "total": 5
+    },
+    "push the plate to the front of the stove": {
+      "success": 3,
+      "total": 5
+    },
+    "put the bowl on the plate": {
+      "success": 0,
+      "total": 5
+    },
+    "put the bowl on the stove": {
+      "success": 1,
+      "total": 5
+    },
+    "put the bowl on top of the cabinet": {
+      "success": 0,
+      "total": 5
+    },
+    "put the cream cheese in the bowl": {
+      "success": 0,
+      "total": 5
+    },
+    "put the wine bottle on the rack": {
+      "success": 0,
+      "total": 5
+    },
+    "put the wine bottle on top of the cabinet": {
+      "success": 0,
+      "total": 5
+    },
+    "turn on the stove": {
+      "success": 5,
+      "total": 5
+    }
+  },
+  "success_rate": 0.22,
+  "task_end": 10,
+  "task_start": 0,
+  "task_suite": "libero_goal",
+  "total_episodes": 50,
+  "total_successes": 11
+}

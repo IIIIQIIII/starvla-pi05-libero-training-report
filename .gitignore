@@ -1,0 +1,28 @@
+# Secrets and local machine state
+.env
+*.pem
+*token*
+*secret*
+
+# Large model artifacts
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+checkpoints/
+final_model/
+weights/
+
+# Raw data and verbose logs
+datasets/
+data/
+logs/
+*.log
+wandb/
+
+# Local caches
+.DS_Store
+__pycache__/
+.pytest_cache/
+.venv/
+venv/

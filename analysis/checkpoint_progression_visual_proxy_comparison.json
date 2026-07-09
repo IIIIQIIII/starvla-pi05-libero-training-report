@@ -1,0 +1,104 @@
+{
+  "note": "Same fixed ROIs on 256x256 videos. Visual proxy metrics only; not official LIBERO predicates or simulator qpos.",
+  "plot": "checkpoint_progression_plot.jpg",
+  "rois_xyxy": {
+    "cabinet_roi": [
+      150,
+      70,
+      255,
+      230
+    ],
+    "drawer_pull_roi": [
+      135,
+      105,
+      200,
+      215
+    ],
+    "gripper_roi": [
+      80,
+      70,
+      220,
+      230
+    ],
+    "handle_band_roi": [
+      145,
+      90,
+      190,
+      185
+    ]
+  },
+  "summaries": {
+    "pi05_ckpt30000_fail": {
+      "cabinet_roi_changed_peak_time_norm": 0.7641530054644808,
+      "cabinet_roi_changed_peak_time_s": 23.306666666666665,
+      "cabinet_roi_changed_px_peak": 188,
+      "contact_sheet": "pi05_ckpt30000_fail_contact_sheet.jpg",
+      "dark_area_delta_max_px": 148,
+      "dark_area_delta_max_ratio_vs_initial": 0.0594855305466238,
+      "dark_area_initial_px": 2488,
+      "dark_area_max_px": 2636,
+      "dark_area_peak_time_norm": 0.8970491803278687,
+      "dark_area_peak_time_s": 27.359999999999996,
+      "duration_s": 30.5,
+      "gripper_min_dist_time_norm": 0.7973770491803278,
+      "gripper_min_dist_time_s": 24.319999999999997,
+      "gripper_min_dist_to_middle_handle_proxy_px": 61.142934273723114,
+      "num_samples": 31,
+      "source_video": "libero_goal_task00_ep00_fail_open_the_middle_drawer_of_the_cabinet.mp4"
+    },
+    "pi05_ckpt60000_fail": {
+      "cabinet_roi_changed_peak_time_norm": 0.29901639344262293,
+      "cabinet_roi_changed_peak_time_s": 9.12,
+      "cabinet_roi_changed_px_peak": 1232,
+      "contact_sheet": "pi05_ckpt60000_fail_contact_sheet.jpg",
+      "dark_area_delta_max_px": 169,
+      "dark_area_delta_max_ratio_vs_initial": 0.06773547094188377,
+      "dark_area_initial_px": 2495,
+      "dark_area_max_px": 2664,
+      "dark_area_peak_time_norm": 0.8306010928961747,
+      "dark_area_peak_time_s": 25.33333333333333,
+      "duration_s": 30.5,
+      "gripper_min_dist_time_norm": 0.5980327868852459,
+      "gripper_min_dist_time_s": 18.24,
+      "gripper_min_dist_to_middle_handle_proxy_px": 57.791901715972024,
+      "num_samples": 31,
+      "source_video": "libero_goal_task00_ep00_fail_open_the_middle_drawer_of_the_cabinet.mp4"
+    },
+    "pi05_ckpt90000_fail": {
+      "cabinet_roi_changed_peak_time_norm": 0.6644808743169398,
+      "cabinet_roi_changed_peak_time_s": 20.266666666666666,
+      "cabinet_roi_changed_px_peak": 2042,
+      "contact_sheet": "pi05_ckpt90000_fail_contact_sheet.jpg",
+      "dark_area_delta_max_px": 2677,
+      "dark_area_delta_max_ratio_vs_initial": 1.072945891783567,
+      "dark_area_initial_px": 2495,
+      "dark_area_max_px": 5172,
+      "dark_area_peak_time_norm": 0.6977049180327868,
+      "dark_area_peak_time_s": 21.279999999999998,
+      "duration_s": 30.5,
+      "gripper_min_dist_time_norm": 0.4319125683060109,
+      "gripper_min_dist_time_s": 13.173333333333332,
+      "gripper_min_dist_to_middle_handle_proxy_px": 57.689322522253086,
+      "num_samples": 31,
+      "source_video": "libero_goal_task00_ep00_fail_open_the_middle_drawer_of_the_cabinet.mp4"
+    },
+    "success_qwen_oft": {
+      "cabinet_roi_changed_peak_time_norm": 0.958743169398907,
+      "cabinet_roi_changed_peak_time_s": 11.696666666666665,
+      "cabinet_roi_changed_px_peak": 1785,
+      "contact_sheet": "success_qwen_oft_contact_sheet.jpg",
+      "dark_area_delta_max_px": 2535,
+      "dark_area_delta_max_ratio_vs_initial": 0.9609552691432903,
+      "dark_area_initial_px": 2638,
+      "dark_area_max_px": 5173,
+      "dark_area_peak_time_norm": 0.9918032786885246,
+      "dark_area_peak_time_s": 12.1,
+      "duration_s": 12.2,
+      "gripper_min_dist_time_norm": 0.7273224043715847,
+      "gripper_min_dist_time_s": 8.873333333333333,
+      "gripper_min_dist_to_middle_handle_proxy_px": 55.13834503590777,
+      "num_samples": 31,
+      "source_video": "rollout_open_the_middle_drawer_of_the_cabinet_episode0_success.mp4"
+    }
+  }
+}

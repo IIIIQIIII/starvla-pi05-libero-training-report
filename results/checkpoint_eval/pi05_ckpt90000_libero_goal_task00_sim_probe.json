@@ -1,0 +1,184 @@
+{
+  "bddl": "open_the_middle_drawer_of_the_cabinet.bddl",
+  "checkpoint": "steps_90000_pytorch_model.pt",
+  "env_check_success_any": false,
+  "env_check_success_final": false,
+  "episode_done_seen": false,
+  "goal_predicate": "(Open wooden_cabinet_1_middle_region)",
+  "middle_joint_qpos_abs_delta_max_from_initial": 0.0,
+  "middle_joint_qpos_abs_max": 0.0,
+  "middle_joint_qpos_delta_final_from_initial": 0.0,
+  "middle_joint_qpos_final": 0.0,
+  "middle_joint_qpos_initial": 0.0,
+  "middle_joint_qpos_max": 0.0,
+  "middle_joint_qpos_min": 0.0,
+  "middle_region_is_open_any": false,
+  "middle_region_is_open_final": false,
+  "model": "PI05",
+  "num_recorded_steps": 310,
+  "records_tail": [
+    {
+      "done_from_step": false,
+      "env_check_success": false,
+      "fixture_joint_state": "error:'WoodenCabinet' object has no attribute 'get_joint_state'",
+      "middle_joint_qpos": 0.0,
+      "middle_region_is_open": false,
+      "t": 290
+    },
+    {
+      "done_from_step": false,
+      "env_check_success": false,
+      "fixture_joint_state": "error:'WoodenCabinet' object has no attribute 'get_joint_state'",
+      "middle_joint_qpos": 0.0,
+      "middle_region_is_open": false,
+      "t": 291
+    },
+    {
+      "done_from_step": false,
+      "env_check_success": false,
+      "fixture_joint_state": "error:'WoodenCabinet' object has no attribute 'get_joint_state'",
+      "middle_joint_qpos": 0.0,
+      "middle_region_is_open": false,
+      "t": 292
+    },
+    {
+      "done_from_step": false,
+      "env_check_success": false,
+      "fixture_joint_state": "error:'WoodenCabinet' object has no attribute 'get_joint_state'",
+      "middle_joint_qpos": 0.0,
+      "middle_region_is_open": false,
+      "t": 293
+    },
+    {
+      "done_from_step": false,
+      "env_check_success": false,
+      "fixture_joint_state": "error:'WoodenCabinet' object has no attribute 'get_joint_state'",
+      "middle_joint_qpos": 0.0,
+      "middle_region_is_open": false,
+      "t": 294
+    },
+    {
+      "done_from_step": false,
+      "env_check_success": false,
+      "fixture_joint_state": "error:'WoodenCabinet' object has no attribute 'get_joint_state'",
+      "middle_joint_qpos": 0.0,
+      "middle_region_is_open": false,
+      "t": 295
+    },
+    {
+      "done_from_step": false,
+      "env_check_success": false,
+      "fixture_joint_state": "error:'WoodenCabinet' object has no attribute 'get_joint_state'",
+      "middle_joint_qpos": 0.0,
+      "middle_region_is_open": false,
+      "t": 296
+    },
+    {
+      "done_from_step": false,
+      "env_check_success": false,
+      "fixture_joint_state": "error:'WoodenCabinet' object has no attribute 'get_joint_state'",
+      "middle_joint_qpos": 0.0,
+      "middle_region_is_open": false,
+      "t": 297
+    },
+    {
+      "done_from_step": false,
+      "env_check_success": false,
+      "fixture_joint_state": "error:'WoodenCabinet' object has no attribute 'get_joint_state'",
+      "middle_joint_qpos": 0.0,
+      "middle_region_is_open": false,
+      "t": 298
+    },
+    {
+      "done_from_step": false,
+      "env_check_success": false,
+      "fixture_joint_state": "error:'WoodenCabinet' object has no attribute 'get_joint_state'",
+      "middle_joint_qpos": 0.0,
+      "middle_region_is_open": false,
+      "t": 299
+    },
+    {
+      "done_from_step": false,
+      "env_check_success": false,
+      "fixture_joint_state": "error:'WoodenCabinet' object has no attribute 'get_joint_state'",
+      "middle_joint_qpos": 0.0,
+      "middle_region_is_open": false,
+      "t": 300
+    },
+    {
+      "done_from_step": false,
+      "env_check_success": false,
+      "fixture_joint_state": "error:'WoodenCabinet' object has no attribute 'get_joint_state'",
+      "middle_joint_qpos": 0.0,
+      "middle_region_is_open": false,
+      "t": 301
+    },
+    {
+      "done_from_step": false,
+      "env_check_success": false,
+      "fixture_joint_state": "error:'WoodenCabinet' object has no attribute 'get_joint_state'",
+      "middle_joint_qpos": 0.0,
+      "middle_region_is_open": false,
+      "t": 302
+    },
+    {
+      "done_from_step": false,
+      "env_check_success": false,
+      "fixture_joint_state": "error:'WoodenCabinet' object has no attribute 'get_joint_state'",
+      "middle_joint_qpos": 0.0,
+      "middle_region_is_open": false,
+      "t": 303
+    },
+    {
+      "done_from_step": false,
+      "env_check_success": false,
+      "fixture_joint_state": "error:'WoodenCabinet' object has no attribute 'get_joint_state'",
+      "middle_joint_qpos": 0.0,
+      "middle_region_is_open": false,
+      "t": 304
+    },
+    {
+      "done_from_step": false,
+      "env_check_success": false,
+      "fixture_joint_state": "error:'WoodenCabinet' object has no attribute 'get_joint_state'",
+      "middle_joint_qpos": 0.0,
+      "middle_region_is_open": false,
+      "t": 305
+    },
+    {
+      "done_from_step": false,
+      "env_check_success": false,
+      "fixture_joint_state": "error:'WoodenCabinet' object has no attribute 'get_joint_state'",
+      "middle_joint_qpos": 0.0,
+      "middle_region_is_open": false,
+      "t": 306
+    },
+    {
+      "done_from_step": false,
+      "env_check_success": false,
+      "fixture_joint_state": "error:'WoodenCabinet' object has no attribute 'get_joint_state'",
+      "middle_joint_qpos": 0.0,
+      "middle_region_is_open": false,
+      "t": 307
+    },
+    {
+      "done_from_step": false,
+      "env_check_success": false,
+      "fixture_joint_state": "error:'WoodenCabinet' object has no attribute 'get_joint_state'",
+      "middle_joint_qpos": 0.0,
+      "middle_region_is_open": false,
+      "t": 308
+    },
+    {
+      "done_from_step": false,
+      "env_check_success": false,
+      "fixture_joint_state": "error:'WoodenCabinet' object has no attribute 'get_joint_state'",
+      "middle_joint_qpos": 0.0,
+      "middle_region_is_open": false,
+      "t": 309
+    }
+  ],
+  "task_id": 0,
+  "task_language": "open the middle drawer of the cabinet",
+  "task_suite": "libero_goal"
+}

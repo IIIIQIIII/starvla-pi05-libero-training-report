@@ -1,0 +1,77 @@
+{
+  "derived_comparison": {
+    "success_reaches_handle_earlier_norm_delta": -0.2954098360655738,
+    "success_vs_fail_cabinet_changed_px_peak_multiple": 0.8741429970617042,
+    "success_vs_fail_dark_area_delta_ratio_multiple": 0.8956232336617518
+  },
+  "note": "Same fixed ROIs on 256x256 videos. These are visual-proxy metrics, not simulator qpos or official LIBERO predicates.",
+  "plot": "comparison_plot.jpg",
+  "rois_xyxy": {
+    "cabinet_roi": [
+      150,
+      70,
+      255,
+      230
+    ],
+    "drawer_pull_roi": [
+      135,
+      105,
+      200,
+      215
+    ],
+    "gripper_roi": [
+      80,
+      70,
+      220,
+      230
+    ],
+    "handle_band_roi": [
+      145,
+      90,
+      190,
+      185
+    ]
+  },
+  "videos": {
+    "fail_pi05_ckpt90000": {
+      "cabinet_roi_changed_peak_time_norm": 0.6644808743169398,
+      "cabinet_roi_changed_peak_time_s": 20.266666666666666,
+      "cabinet_roi_changed_px_peak": 2042,
+      "contact_sheet": "fail_pi05_ckpt90000_contact_sheet.jpg",
+      "dark_area_after_reach_delta_px": 2677,
+      "dark_area_after_reach_max_px": 5172,
+      "dark_area_delta_max_px": 2677,
+      "dark_area_delta_max_ratio_vs_initial": 1.072945891783567,
+      "dark_area_initial_px": 2495,
+      "dark_area_max_px": 5172,
+      "dark_area_peak_time_norm": 0.6977049180327868,
+      "dark_area_peak_time_s": 21.279999999999998,
+      "duration_s": 30.5,
+      "gripper_min_dist_time_norm": 0.4319125683060109,
+      "gripper_min_dist_time_s": 13.173333333333332,
+      "gripper_min_dist_to_middle_handle_proxy_px": 57.689322522253086,
+      "num_samples": 31,
+      "source_video": "libero_goal_task00_ep00_fail_open_the_middle_drawer_of_the_cabinet.mp4"
+    },
+    "success_qwen_oft": {
+      "cabinet_roi_changed_peak_time_norm": 0.958743169398907,
+      "cabinet_roi_changed_peak_time_s": 11.696666666666665,
+      "cabinet_roi_changed_px_peak": 1785,
+      "contact_sheet": "success_qwen_oft_contact_sheet.jpg",
+      "dark_area_after_reach_delta_px": 2535,
+      "dark_area_after_reach_max_px": 5173,
+      "dark_area_delta_max_px": 2535,
+      "dark_area_delta_max_ratio_vs_initial": 0.9609552691432903,
+      "dark_area_initial_px": 2638,
+      "dark_area_max_px": 5173,
+      "dark_area_peak_time_norm": 0.9918032786885246,
+      "dark_area_peak_time_s": 12.1,
+      "duration_s": 12.2,
+      "gripper_min_dist_time_norm": 0.7273224043715847,
+      "gripper_min_dist_time_s": 8.873333333333333,
+      "gripper_min_dist_to_middle_handle_proxy_px": 55.13834503590777,
+      "num_samples": 31,
+      "source_video": "rollout_open_the_middle_drawer_of_the_cabinet_episode0_success.mp4"
+    }
+  }
+}
