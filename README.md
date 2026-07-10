@@ -17,7 +17,7 @@ Model weights, cloud credentials, access tokens, SSH keys, full logs, and raw tr
 | LIBERO 10 | 0 | 50 | 0.0% |
 | **Overall** | **11** | **200** | **5.5%** |
 
-The final policy learned useful coarse grounding and target-reaching behavior. It performed best on contact-oriented tasks such as opening a drawer, pushing a plate, and turning on a stove, but remained weak on precise grasping, stable placement, and long-horizon multi-object manipulation.
+The adapted policy learned useful coarse grounding and target-reaching behavior. It performed best on contact-oriented tasks such as opening a drawer, pushing a plate, and turning on a stove, but remained weak on precise grasping, stable placement, and long-horizon multi-object manipulation.
 
 ## Run Setup
 
