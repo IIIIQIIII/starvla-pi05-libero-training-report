@@ -1,6 +1,9 @@
 # StarVLA PI0.5 LIBERO Training Report
 
-This repository packages a completed StarVLA PI0.5 fine-tuning and evaluation run on LIBERO. It is meant as a compact, shareable record of the run: configuration, final metrics, rollout videos, checkpoint probes, and a small visual proxy analysis.
+This repository packages a completed StarVLA PI0.5 training and evaluation run on LIBERO. It is meant as a compact, shareable record of the run: configuration, final metrics, rollout videos, checkpoint probes, and a small visual proxy analysis.
+
+> [!IMPORTANT]
+> This run completed all 120,000 training steps, but it is **not a strict reproduction of the official StarVLA PI0.5/OpenPI LIBERO recipe**. The actual run used `libero_all` / `libero_franka`; the official PI0.5 launcher uses `openpi_libero_all` / `openpi_libero_franka`. Those configurations apply materially different state/action normalization. The 5.5% result below therefore describes this adapted run and must not be presented as official StarVLA PI0.5 performance.
 
 Model weights, cloud credentials, access tokens, SSH keys, full logs, and raw training datasets are intentionally not included.
 
@@ -21,11 +24,14 @@ The final policy learned useful coarse grounding and target-reaching behavior. I
 | Item | Value |
 | --- | --- |
 | Model family | StarVLA PI0.5 |
-| Dataset mix | LIBERO all-suite mix |
+| Actual data mix | `libero_all` |
+| Actual robot/data config | `libero_franka` |
 | Hardware | 4 x H100 |
 | Training length | 120,000 steps |
+| Global batch size | 4 |
 | Checkpoints inspected | 30k, 60k, 90k, 120k/final |
 | Final evaluation dtype | float32 |
+| Evaluation scale | 50 episodes/suite |
 
 The original post-training automatic evaluation path failed under `bfloat16` because of a dtype mismatch. The final reported metrics come from a replacement `float32` evaluation.
 
@@ -59,16 +65,25 @@ Reference baseline artifact:
 - `analysis/`: visual proxy metrics used to compare success and failure behavior.
 - `docs/`: detailed run notes and evaluation interpretation.
 
+## Official Recipe Comparison
+
+The upstream PI0.5 launcher defaults to `openpi_libero_all`, 8 processes, and a per-device batch size of 8, for a global batch size of 64. Its OpenPI data config applies `q99` normalization to all state and action fields, including the gripper. This run used a global batch size of 4 and the legacy `libero_franka` transform, which applies `min_max` normalization only to the six Cartesian/rotation action fields and does not apply the same `q99` state transform.
+
+The upstream README reports 96.25% average success for its reproduced PI0.5 train-and-eval result. That number was measured with the official OpenPI configuration and 500 trials per suite. Our 50 trials per suite produce a noisier estimate, but sample count alone cannot explain a gap from roughly 96% to 5.5%. The state/action normalization mismatch is the strongest diagnosis, followed by the much smaller global batch. A strict rerun or controlled ablation is still required to measure each factor independently.
+
+See [Official recipe gap](docs/official_recipe_gap.md) for the exact comparison and source links.
+
 ## Main Takeaway
 
-The trained PI0.5 policy is not yet a strong general LIBERO policy, but the behavior is not random. On the drawer task, the 90k checkpoint produced visually correct target approach and drawer-pulling motion even when the official binary task predicate marked the episode as failed. This is why the repository includes both official success rates and video-derived proxy metrics.
+This adapted policy is not a strong general LIBERO policy, but its behavior is not random. Visual/language grounding and coarse target-reaching can survive a control-space mismatch, while precise action magnitude, orientation, and gripper timing degrade. That pattern is visible in the task distribution: contact-oriented tasks produced some successes, while grasping, placement, and multi-step tasks largely failed. On the drawer task, the 90k checkpoint produced a visible target approach and pulling motion even when the official binary task predicate marked the episode as failed.
 
 See:
 
 - [Run summary](docs/run_summary.md)
 - [Evaluation analysis](docs/eval_analysis.md)
+- [Official recipe gap](docs/official_recipe_gap.md)
 - [Checkpoint progression](docs/checkpoint_progression.md)
 
 ## Notes
 
-This repository is a report artifact, not a full reproduction package. To reproduce training, use the upstream StarVLA codebase, obtain the required model and dataset access, and adapt the configuration summarized in `docs/run_summary.md`.
+This repository is a report artifact, not a full reproduction package or an official benchmark reproduction. A future strict rerun should use the upstream OpenPI data config and match the official effective batch and evaluation protocol as closely as the available hardware allows.
